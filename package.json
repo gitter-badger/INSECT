@@ -1,6 +1,6 @@
 {
   "name": "insect-tool",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "INcosiderate SEntence CaTcher",
   "main": "index.js",
   "scripts": {
