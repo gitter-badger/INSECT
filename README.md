@@ -1,7 +1,7 @@
 # INSECT
 ## INSECT is the INcosiderate SEntence CaTcher
 
-INSECT can be used by all websites to **eliminate** bad language, racial comments, sexist comments and generally insensitive comments.
+INSECT can be used by all websites to **eliminate** bad language, racial comments, gendered comments and generally insensitive comments.
 
 Syntax: `insect --detect <filename or string>`
 
