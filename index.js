@@ -1,8 +1,8 @@
-function insect(text) {
-	
+function insect(msg, flags) {
+	console.log(msg)
 }
 
-function profanity_check(text) {
+function profanity_check(msg) {
   var xhr = new XMLHttpRequest();
   var uri = parse("http://www.purgomalum.com/service/json?text=%s&add=input&fill_text=****", msg);
   xhr.open('GET', uri, true);
