@@ -1,4 +1,14 @@
-function insect(msg, flags) {
+var cli = require('commander');
+
+cli
+  .option('-s, --string <str>', 'Detect all types of language from a given string')
+  .option('-f, --file <file>', 'Detect all types of language from a given file')
+  .parse(process.argv);
+ 
+if (cli.string) insect(cli.string);
+if(cli.file) readFile(cli.file);
+
+function insect(msg) {
 	console.log(msg)
 }
 
@@ -26,6 +36,10 @@ function parse(str) {
   return str.replace(/%s/g, function() {
     return args[i++];
   });
+}
+
+function readFile(filename) {
+	
 }
 
 module.exports = insect;

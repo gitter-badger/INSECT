@@ -2,7 +2,7 @@
   "name": "insect-tool",
   "version": "1.0.1",
   "description": "INcosiderate SEntence CaTcher",
-  "main": "cli.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,12 +12,15 @@
   },
   "keywords": [],
   "author": "Callum Leslie",
+  "bin": {
+    "insect-tool": "./index.js"
+  },
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/CallyWally12/INSECT/issues"
   },
   "homepage": "https://github.com/CallyWally12/INSECT#readme",
   "dependencies": {
-    "meow": "^3.7.0"
+    "commander": "^2.9.0"
   }
 }
