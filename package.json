@@ -1,5 +1,5 @@
 {
-  "name": "insect",
+  "name": "insect-tool",
   "version": "1.0.0",
   "description": "INcosiderate SEntence CaTcher",
   "main": "index.js",
@@ -10,13 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/CallyWally12/INSECT.git"
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "author": "Callum Leslie",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/CallyWally12/INSECT/issues"
   },
-  "homepage": "https://github.com/CallyWally12/INSECT#readme"
+  "homepage": "https://github.com/CallyWally12/INSECT#readme",
+  "dependencies": {
+    "meow": "^3.7.0"
+  }
 }
