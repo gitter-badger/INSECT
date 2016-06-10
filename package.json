@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "Callum Leslie",
   "bin": {
-    "insect-tool": "./index.js"
+    "insect-tool": "./cli.js"
   },
   "license": "GPL-3.0",
   "bugs": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/CallyWally12/INSECT#readme",
   "dependencies": {
-    "commander": "2.9.0"
+    "meow": "3.7.0"
   },
   "engines": {
     "node": "6.2.1"
