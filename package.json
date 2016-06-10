@@ -1,29 +1,29 @@
 {
-	"name": "insect-tool",
-	"version": "2.0.3",
-	"description": "INcosiderate SEntence CaTcher",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CallyWally12/INSECT.git"
-	},
-	"keywords": [],
-	"author": "Callum Leslie",
-	"bin": {
-		"insect-tool": "./index.js"
-	},
-	"license": "GPL-3.0",
-	"bugs": {
-		"url": "https://github.com/CallyWally12/INSECT/issues"
-	},
-	"homepage": "https://github.com/CallyWally12/INSECT#readme",
-	"dependencies": {
-		"commander": "2.9.0"
-	},
-	"engines": {
-		"node": "6.2.1"
-	}
+  "name": "insect-tool",
+  "version": "2.0.4",
+  "description": "INcosiderate SEntence CaTcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CallyWally12/INSECT.git"
+  },
+  "keywords": [],
+  "author": "Callum Leslie",
+  "bin": {
+    "insect-tool": "./index.js"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CallyWally12/INSECT/issues"
+  },
+  "homepage": "https://github.com/CallyWally12/INSECT#readme",
+  "dependencies": {
+    "commander": "2.9.0"
+  },
+  "engines": {
+    "node": "6.2.1"
+  }
 }

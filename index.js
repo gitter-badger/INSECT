@@ -1,4 +1,4 @@
-var cli = require('./commander');
+var cli = require('./node_modules/commander/index.js');
 
 cli
   .option('-s, --string <str>', 'Detect all types of language from a given string')
