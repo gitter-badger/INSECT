@@ -3,11 +3,7 @@
 
 INSECT can be used by all websites to **eliminate** bad language, racial comments, gendered comments and generally insensitive comments.
 
-<<<<<<< HEAD
-Syntax: `insect -d <string to anylyse>`
-=======
-Syntax: `insect-tool -s <string>`
->>>>>>> origin/master
+Syntax: `insect-tools -s <string>`
 
 This can also help people do more considerate writing and make the world a better place.
 
