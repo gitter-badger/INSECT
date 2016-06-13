@@ -4,7 +4,7 @@ const insect = require('./index.js');
 
 const cli = meow(`
 	Usage
-	  $ insect-tool <input>
+	  $ insect-tool <flag> <input>
  
 	Options
 	  -s, --string  Take input from a string
@@ -22,4 +22,4 @@ const cli = meow(`
 		f: 'file'
 	}
 });
-insect(cli.input[0], cli.flags);
+insect(cli.flags);

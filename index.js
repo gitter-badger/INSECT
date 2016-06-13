@@ -1,26 +1,25 @@
-function insect(msg, flags) {
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+var xhr = new XMLHttpRequest();
+
+function insect(flags) {
 	console.log(flags);
-	var parsedFlags = JSON.parse(flags);
-	if(parsedFlags.s == "true") {
-		profanity_check(msg);
-		console.log(msg);
+	if(flags.s) {
+		profanity_check(flags.s);
 	}
 }
 	
 function profanity_check(msg) {
-  var xhr = new XMLHttpRequest();
   var uri = "http://www.purgomalum.com/service/json?text=" + msg + "&add=input&fill_text=****";
   xhr.open('GET', uri, true);
-  xhr.send()
+  xhr.send();
   xhr.onreadystatechange = processRequest;
 }
 
 function processRequest(e) {
   if (xhr.readyState == 4 && xhr.status == 200) {
     var response = JSON.parse(xhr.responseText);
-    msg = response.result;
-
-    return(msg);
+    var msg = response.result;
+    console.log(msg);
   }
 }
 

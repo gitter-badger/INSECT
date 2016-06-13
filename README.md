@@ -3,8 +3,8 @@
 
 INSECT can be used by all websites to **eliminate** bad language, racial comments, gendered comments and generally insensitive comments.
 
-Syntax: `insect-tool <string> -s`
-		`insect-tool <filename> -f`
+Syntax: `insect-tool  -s <string>`
+		`insect-tool -f <filename>`
 
 This can also help people do more considerate writing and make the world a better place.
 
