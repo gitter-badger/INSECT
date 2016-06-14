@@ -20,7 +20,12 @@ function processRequest(e) {
     var response = JSON.parse(xhr.responseText);
     var msg = response.result;
     console.log(msg);
+	something(msg);
   }
+}
+
+function check_sensetivity() {
+  
 }
 
 function readFile(filename) {
