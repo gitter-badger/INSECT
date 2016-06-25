@@ -4,7 +4,8 @@
   "description": "INcosiderate SEntence CaTcher",
   "main": "cli.js",
   "scripts": {
-    "test": "istanbul cover ./node_module/insect-tool/bin/cli.js"
+    "start": "node_modules/.bin/supervisor app",
+    "test": "node_modules/.bin/mocha -w"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,9 @@
     "node": "6.2.1"
   },
   "devDependencies": {
-    "istanbul": "0.4.4"
+    "mocha": "*",
+    "should": ">= 0.0.1",
+    "supervisor": "*"
   },
   "preferGlobal": "true"
 }

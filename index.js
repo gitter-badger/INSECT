@@ -3,7 +3,7 @@ var xhr = new XMLHttpRequest();
 var fs = require('fs');
 
 function insect(flags) {
-	console.log(flags);
+	//console.log(flags);
 	if(flags.s) {
 		profanity_check(flags.s);
 	}
