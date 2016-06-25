@@ -20,5 +20,5 @@ notifications:
     on_start: never
 
 after_success:
-  - istanbul cover bin/cli.js --report lcovonly -- -R spec
+  - istanbul cover examples/stringfile.sh --report lcovonly -- -R spec
   - bash <(curl -s https://codecov.io/bash)
