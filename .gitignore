@@ -253,9 +253,3 @@ jspm_packages
 
 ### Gulp ###
 gulpfile.js
-
-### Lib ###
-lib
-
-### CodeClimate ###
-#codeclimate/
