@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-../bin/cli.js -s "Hello String"
-../bin/cli.js -f "example.txt"
+node ../bin/cli.js -s "Hello String"
+node ../bin/cli.js -f "example.txt"
