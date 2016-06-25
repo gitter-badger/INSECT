@@ -4,6 +4,7 @@
   "description": "INcosiderate SEntence CaTcher",
   "main": "cli.js",
   "scripts": {
+    "pretest": "npm install -g istanbul",
     "test": "istanbul cover node_modules/insect-tool/bin/cli.js"
   },
   "repository": {
