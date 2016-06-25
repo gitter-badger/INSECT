@@ -4,9 +4,7 @@
   "description": "INcosiderate SEntence CaTcher",
   "main": "cli.js",
   "scripts": {
-    "pretest": "npm install -g istanbul",
-    "test": "istanbul cover bin/cli.js",
-    "posttest": "bash codeclimate/codeclimate.sh"
+    "test": "",
   },
   "repository": {
     "type": "git",
