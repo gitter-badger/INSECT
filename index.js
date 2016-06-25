@@ -20,7 +20,7 @@ function profanity_check(msg) {
 }
 
 function processRequest(e) {
-  if (xhr.readyState == 4 && xhr.status == 200) {
+  if (xhr.readyState === 4 && xhr.status === 200) {
     var response = JSON.parse(xhr.responseText);
     var msg = response.result;
     console.log(msg);
@@ -35,14 +35,18 @@ function check_sensetivity(msg) {
 }
 
 function readFile(filename) {
+ 	var succeed = false;
 	try{
 		var msg = fs.readFileSync(filename);
-		profanity_check(msg);
+		succeed = true;
 	}
 	catch(err) {
 		console.log("Could not find file");
 	}
 
+	if(succeed === true){
+		profanity_check(msg);
+	}
 }
 
 module.exports = insect;
