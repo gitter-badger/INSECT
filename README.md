@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/CallyWally12/INSECT.svg?branch=master)](https://travis-ci.org/CallyWally12/INSECT)
 [![Test Coverage](https://codecov.io/gh/CallyWally12/INSECT/branch/master/graph/badge.svg)](https://codecov.io/gh/CallyWally12/INSECT)
-[![Documentation Status](https://readthedocs.org/projects/insect/badge/?version=latest)](http://insect.readthedocs.io/en/latest/?badge=latest)
 [![GitHub license](https://img.shields.io/badge/LICENSE-GPL--3.0-blue.svg)](https://raw.githubusercontent.com/CallyWally12/INSECT/master/LICENSE)
 
 # INSECT
