@@ -16,7 +16,6 @@ function profanity_check(msg) {
   var uri = "http://www.purgomalum.com/service/json?text=" + msg + "&add=input&fill_text=****";
   xhr.open('GET', uri, true);
   xhr.send();
-	console.log("check 12")
   xhr.onreadystatechange = processRequest;
 }
 
