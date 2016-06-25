@@ -29,7 +29,7 @@ function processRequest(e) {
 }
 
 function check_sensetivity(msg) {
-  var contents = fs.readFileSync("lib/sensetivity.json");
+  var contents = fs.readFileSync("./lib/sensetivity.json");
 	var content = JSON.parse(contents);
 
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env/ node
+
 'use strict';
 const meow = require('meow');
 const insect = require('../index.js');
@@ -15,7 +17,7 @@ const cli = meow(`
 	  Nothing wrong!
 
 	  $ insect-tool "He was stupid" -s
-	  Changed to "They were foolish"
+	  Changed to "The person was foolish"
 `, {
 	alias: {
 		s: 'string',
