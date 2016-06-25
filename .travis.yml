@@ -1,8 +1,14 @@
 language: node_js
 node_js:
-  - "6"
-  - "6.1"
-  - "5.11"
+- '6'
+- '6.1'
+- '5.11'
 addons:
-    code_climate:
-        repo_token: 1c19808a4d4fe240a17c528439f47b3ec9e39ecec4ee379a8b24cb4b820fd236
+  code_climate:
+    repo_token: 1c19808a4d4fe240a17c528439f47b3ec9e39ecec4ee379a8b24cb4b820fd236
+deploy:
+  provider: npm
+  api_key:
+    secure: OmnfUnfOE5zpTN+emhzTjolpQ+bddMX/K1nX3Ur3EwPt1xB0a5i+Oqelk+//oNnoDnZ3klSc7ED9RFu5KtaOF+QFNPPR8KCQ+E+m0zSMFF5A0KbOnZVpEw16YqNm6JgRz9AZsomH58oxszoQ4seMuPNZy7Q0KLmo+B7X6GYKvXbwBDyNpQ2IdtmMidHV/xJ6WFs94buWhhuRixghufWyYNOYDnIvMum2XUfCXdXFGYrtNvsfvBGGWj99XyIakr7yAMHbseAI4XNUCaL6V0OBP8NF1AQP5diddEpm6EdqZaYtfyjHaE3RBHgAl4CnEXN2ESRqoirhvTVOO38Ff0DL0o/AlYMRnKj/ToDZIHFpIqHyWlROgr1aylaAK55FV4MmHAQJQOybi2+tNVq2Cwz958jPzmQXrFsL4Ta/Os6zbeSULzVaeuM8ZZkPO06FalIIU97xQeh/2Vnx3YrbF2y04lLLWs4j0z4iR250KArw3GL1tc7ri/3lYXpjdxh6Xs7F7lppWQ5i4RzgFBDQgcEvwPKZrj1B8ah0tolRuPKM/7CQz5qg7KWMWSdlSZTmk2d1sw0ueMEFDw2ERs6dpfHYvzmS6RRJTa2E7aayByTyCBgCjF0Hw2IfSWAPmunPxMuqibu/q3VqCcT2Egr1810dcAPYc4yF8yvdetmUojwUMFU=
+  on:
+      tags: true

@@ -31,5 +31,6 @@
   },
   "devDependencies": {
     "istanbul": "0.4.4"
-  }
+  },
+  "preferGlobal": "true"
 }
