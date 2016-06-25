@@ -20,5 +20,5 @@ notifications:
     on_start: never
 
 after_success:
-  - istanbul cover ./node_modules/insect-tool/bin/cli.js --report lcovonly -- -R spec
+  - istanbul cover bin/cli.js --report lcovonly -- -R spec
   - bash <(curl -s https://codecov.io/bash)
