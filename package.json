@@ -5,7 +5,8 @@
   "main": "cli.js",
   "scripts": {
     "pretest": "npm install -g istanbul",
-    "test": "istanbul cover bin/cli.js"
+    "test": "istanbul cover bin/cli.js",
+    "posttest": "bash codeclimate/codeclimate.sh"
   },
   "repository": {
     "type": "git",

@@ -256,3 +256,6 @@ gulpfile.js
 
 ### Lib ###
 lib
+
+### CodeClimate ###
+codeclimate/
