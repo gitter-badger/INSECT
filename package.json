@@ -4,7 +4,7 @@
   "description": "INcosiderate SEntence CaTcher",
   "main": "cli.js",
   "scripts": {
-    "test": "",
+    "test": ""
   },
   "repository": {
     "type": "git",
