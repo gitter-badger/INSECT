@@ -4,7 +4,7 @@
   "description": "INcosiderate SEntence CaTcher",
   "main": "cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul cover node_modules/insect-tool/bin/cli.js"
   },
   "repository": {
     "type": "git",
