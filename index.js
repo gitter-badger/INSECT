@@ -1,13 +1,12 @@
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var xhr = new XMLHttpRequest();
 var fs = require('fs');
-
 function insect(flags) {
-	//console.log(flags);
-	if(flags.s) {
+	console.log(flags);
+	if(flags.s || flags.string) {
 		profanity_check(flags.s);
 	}
-	if(flags.f) {
+	if(flags.f || flags.file) {
 		readFile(flags.f);
 	}
 }
@@ -27,7 +26,7 @@ function processRequest(e) {
 	check_sensetivity(msg);
   }
 }
-
+	console.log(content);
 function check_sensetivity(msg) {
   var contents = fs.readFileSync("./lib/sensetivity.json");
   var content = JSON.parse(contents);
