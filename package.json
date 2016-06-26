@@ -1,6 +1,6 @@
 {
   "name": "insect-tool",
-  "version": "3.1.5",
+  "version": "3.1.6",
   "description": "INcosiderate SEntence CaTcher",
   "main": "cli.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "dependencies": {
     "meow": "3.7.0",
     "xmlhttprequest": "1.8.0",
-    "insect_json":"*"
+    "insect_json": "*"
   },
   "engines": {
     "node": "6.2.1"
