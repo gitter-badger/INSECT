@@ -26,11 +26,11 @@ function processRequest(e) {
 	check_sensetivity(msg);
   }
 }
-	console.log(content);
+
 function check_sensetivity(msg) {
   var contents = fs.readFileSync("./lib/sensetivity.json");
   var content = JSON.parse(contents);
-
+	console.log(content);
 }
 
 function readFile(filename) {
