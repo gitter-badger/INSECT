@@ -1,7 +1,7 @@
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var xhr = new XMLHttpRequest();
 var fs = require('fs');
-var insect_json = require("insect_json");
+var jparser = require("insect_json");
 
 function insect(flags) {
 	console.log(flags);
@@ -32,7 +32,7 @@ function processRequest(e) {
 function check_sensetivity(msg) {
   var contents = fs.readFileSync("./lib/sensetivity.json");
   var content = JSON.parse(contents);
-	insect_json(content);
+	jparser.insect_json(content);
 }
 
 function readFile(filename) {
