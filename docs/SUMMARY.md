@@ -1,4 +1,4 @@
 # Summary
 
-* [Introduction](docs/index.md)
+* [Getting Started](docs/index.md)
 
