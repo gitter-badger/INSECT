@@ -5,7 +5,10 @@
   "main": "cli.js",
   "scripts": {
     "start": "node_modules/.bin/supervisor app",
-    "test": "node_modules/.bin/mocha -w"
+    "test": "node_modules/.bin/mocha -w",
+	"docs:build": "npm run docs:prepare && rm -rf _book && gitbook build",
+	"docs:prepare": "gitbook install",
+    "docs:watch": "npm run docs:prepare && gitbook serve"
   },
   "repository": {
     "type": "git",
