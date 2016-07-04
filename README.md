@@ -15,6 +15,6 @@ This can also help people do more considerate writing and make the world a bette
 > “Leave the world in better conditions in which you found it.” 
 ― Baden Powell
 
-And that's exactly what INSECT aims to do.
+And that's what INSECT aims to do.
 
 [![NPM Package](https://nodei.co/npm/insect-tool.png?compact=true)](https://www.npmjs.com/package/insect-tool)
