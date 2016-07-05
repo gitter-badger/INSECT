@@ -31,7 +31,6 @@
     "node": "6.2.1"
   },
   "devDependencies": {
-    "gitbook-cli": "2.3.0",
     "mocha": "*",
     "should": ">= 0.0.1",
     "supervisor": "*"
