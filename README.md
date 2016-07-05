@@ -21,4 +21,4 @@ And that's what INSECT aims to do.
 
 ## LICENSE
 
-GNU-3.0 license. See the LICENSE file for details.
+GPL-3.0 license. See the LICENSE file for details.
