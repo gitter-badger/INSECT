@@ -1,7 +1,8 @@
 [![Build Status](https://travis-ci.org/CallyWally12/INSECT.svg?branch=master)](https://travis-ci.org/CallyWally12/INSECT)
 [![Test Coverage](https://codecov.io/gh/CallyWally12/INSECT/branch/master/graph/badge.svg)](https://codecov.io/gh/CallyWally12/INSECT)
 [![GitHub license](https://img.shields.io/badge/LICENSE-GPL--3.0-blue.svg)](https://raw.githubusercontent.com/CallyWally12/INSECT/master/LICENSE)
-
+[![NPM Version](https://badge.fury.io/js/insect-tool.svg)](https://npmjs.org/package/insect-tool)
+[![NPM Downloads](http://img.shields.io/npm/dt/insect-tool.svg?label=npm downloads)](https://npmjs.org/package/insect-tool)
 # INSECT
 ## INSECT is the INcosiderate SEntence CaTcher
 
