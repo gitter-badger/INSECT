@@ -6,6 +6,8 @@
 # INSECT
 ## INSECT is the INcosiderate SEntence CaTcher
 
+[![Join the chat at https://gitter.im/CallyWally12/INSECT](https://badges.gitter.im/CallyWally12/INSECT.svg)](https://gitter.im/CallyWally12/INSECT?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 INSECT can be used by all websites to **eliminate** bad language, racial comments, gender favouring and generally insensitive comments.
 
 Syntax: `insect-tool  -s <string>`
