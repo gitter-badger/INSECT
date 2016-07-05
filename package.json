@@ -26,9 +26,10 @@
   },
   "homepage": "https://github.com/CallyWally12/INSECT#readme",
   "dependencies": {
+    "gitbook-plugin-advanced-emoji": "0.1.9",
+    "insect_json": "*",
     "meow": "3.7.0",
-    "xmlhttprequest": "1.8.0",
-    "insect_json": "*"
+    "xmlhttprequest": "1.8.0"
   },
   "engines": {
     "node": "6.2.1"
