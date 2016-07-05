@@ -18,3 +18,7 @@ This can also help people do more considerate writing and make the world a bette
 And that's what INSECT aims to do.
 
 [![NPM Package](https://nodei.co/npm/insect-tool.png?compact=true)](https://www.npmjs.com/package/insect-tool)
+
+## LICENSE
+
+GNU-3.0 license. See the LICENSE file for details.
