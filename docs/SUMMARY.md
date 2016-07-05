@@ -1,4 +1,3 @@
 # Summary
 
-* [Getting Started](docs/index.md)
-
+* [Getting Started](docs/i(doc(docs/started.md)
